@@ -47,9 +47,8 @@ import com.splwg.shared.common.ApplicationError;
 */
 
 /**
- * @author Prasad Rao
- * @AlgorithmComponent (softParameters = { @AlgorithmSoftParameter (name = toDoTypeServiceAgreementCharacteristicType, required =  true, type = entity, entityName = characteristicType)} )
- *							
+ * @author Ajit Jena
+ * @AlgorithmComponent (softParameters = { @AlgorithmSoftParameter (name = toDoTypeServiceAgreementCharacteristicType, required = true, type = entity, entityName = characteristicType) } )
  */
 public class CmToDoPostProcessingAdjustmentFreezeAlg_Impl extends
 		CmToDoPostProcessingAdjustmentFreezeAlg_Gen implements
@@ -80,7 +79,7 @@ public class CmToDoPostProcessingAdjustmentFreezeAlg_Impl extends
 		if(notNull(oldToDoDto)){
 			// Adjustment adjustment = null;
 			if(!oldToDoDto.getEntity().getDrillKeyValues().isEmpty()){
-				String drilKeyValue = oldToDoDto.getEntity().getDrillKeyValues().iterator().next().getKeyValue();
+				String drilKeyValue = oldToDoDto.getEntity().getDrillKeyValues().iterator().next().getKeyValue13030912();
 				// adjustment = new Adjustment_Id(drilKeyValue).getEntity();
 			}
 			// adjustment.getApprovalRequestId();
