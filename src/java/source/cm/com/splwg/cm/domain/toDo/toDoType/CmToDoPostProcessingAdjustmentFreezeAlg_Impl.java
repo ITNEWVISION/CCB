@@ -19,7 +19,7 @@
  * latest completed To Do entry(s) comment and assigned user if the To Do
  * is created for the same service agreement, same To Do type,
  * same Message Number, same Message Parm1 as in input parameter.
- * Test 2
+ * Test 3
  **************************************************************************
  *
  * CHANGE HISTORY:
@@ -79,7 +79,7 @@ public class CmToDoPostProcessingAdjustmentFreezeAlg_Impl extends
 		if(notNull(oldToDoDto)){
 			// Adjustment adjustment = null;
 			if(!oldToDoDto.getEntity().getDrillKeyValues().isEmpty()){
-				String drilKeyValue = oldToDoDto.getEntity().getDrillKeyValues().iterator().next().getKeyValue13030912();
+				String drilKeyValue = oldToDoDto.getEntity().getDrillKeyValues().iterator().next().getKeyValue();
 				// adjustment = new Adjustment_Id(drilKeyValue).getEntity();
 			}
 			// adjustment.getApprovalRequestId();
