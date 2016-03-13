@@ -7,7 +7,7 @@
  * nor is it to be used for any purpose other than that for which
  * it is expressly provided without the written permission of
  * GIEAU.
- * Testing prasad -- GIT new............13/03/2016
+ * Testing prasad
  *
  **************************************************************************
  *
@@ -27,7 +27,7 @@
  * Date:        by:     Reason:
  * YYYY-MM-DD   IN      Reason text.
  *
- * 2013-01-31  WTechn   TD04.01 Initial Version...
+ * 2013-01-31  WTechn   TD04.01 Initial Version.
  *************************************************************************
  */
 package com.splwg.cm.domain.todo.toDoType;
@@ -47,8 +47,9 @@ import com.splwg.shared.common.ApplicationError;
 */
 
 /**
- * @author Ajit Jena
- * @AlgorithmComponent (softParameters = { @AlgorithmSoftParameter (name = toDoTypeServiceAgreementCharacteristicType, required = true, type = entity, entityName = characteristicType) } )
+ * @author Prasad Rao
+ * @AlgorithmComponent (softParameters = { @AlgorithmSoftParameter (name = toDoTypeServiceAgreementCharacteristicType, required =  true, type = entity, entityName = characteristicType)} )
+ *							
  */
 public class CmToDoPostProcessingAdjustmentFreezeAlg_Impl extends
 		CmToDoPostProcessingAdjustmentFreezeAlg_Gen implements
@@ -79,7 +80,7 @@ public class CmToDoPostProcessingAdjustmentFreezeAlg_Impl extends
 		if(notNull(oldToDoDto)){
 			// Adjustment adjustment = null;
 			if(!oldToDoDto.getEntity().getDrillKeyValues().isEmpty()){
-				String drilKeyValue = oldToDoDto.getEntity().getDrillKeyValues().iterator().next().getKeyValue1503();
+				String drilKeyValue = oldToDoDto.getEntity().getDrillKeyValues().iterator().next().getKeyValue();
 				// adjustment = new Adjustment_Id(drilKeyValue).getEntity();
 			}
 			// adjustment.getApprovalRequestId();
