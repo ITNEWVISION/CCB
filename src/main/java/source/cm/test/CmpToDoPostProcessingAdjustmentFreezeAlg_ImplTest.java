@@ -17,7 +17,7 @@ public class CmpToDoPostProcessingAdjustmentFreezeAlg_ImplTest extends
 	@Override
 	protected Class getAlgorithmImplementationClass() {
 		// TODO Auto-generated method stub
-		return null;
+		return CmpToDoPostProcessingAdjustmentFreezeAlg_Impl.class;
 	}
 
 	
