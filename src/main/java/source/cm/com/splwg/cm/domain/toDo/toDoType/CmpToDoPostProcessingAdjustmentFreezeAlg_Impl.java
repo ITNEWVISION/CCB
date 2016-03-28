@@ -6,8 +6,8 @@
  * transmitted in any form, by any means, in whole or in part,
  * nor is it to be used for any purpose other than that for which
  * it is expressly provided without the written permission of
- * GIEAU. 
- * Testing prasad 0111
+ * GIEAU.
+ * Testing prasad
  *
  **************************************************************************
  *
@@ -19,7 +19,7 @@
  * latest completed To Do entry(s) comment and assigned user if the To Do
  * is created for the same service agreement, same To Do type,
  * same Message Number, same Message Parm1 as in input parameter.
- * Test 3
+ *
  **************************************************************************
  *
  * CHANGE HISTORY:
@@ -30,7 +30,7 @@
  * 2013-01-31  WTechn   TD04.01 Initial Version.
  *************************************************************************
  */
-package com.splwg.cm.domain.todo.toDoType;
+package com.splwg.cm.domain.toDo.toDoType;
 
 import com.splwg.base.domain.todo.toDoEntry.ToDoEntry;
 import com.splwg.base.domain.todo.toDoEntry.ToDoEntry_DTO;
@@ -47,11 +47,12 @@ import com.splwg.shared.common.ApplicationError;
 */
 
 /**
- * @author Ajit Jena
- * @AlgorithmComponent (softParameters = { @AlgorithmSoftParameter (name = toDoTypeServiceAgreementCharacteristicType, required = true, type = entity, entityName = characteristicType) } )
+ * @author Prasad Rao
+ * @AlgorithmComponent (softParameters = { @AlgorithmSoftParameter (name = toDoTypeServiceAgreementCharacteristicType, required =  true, type = entity, entityName = characteristicType)} )
+ *							
  */
-public class CmToDoPostProcessingAdjustmentFreezeAlg_Impl extends
-		CmToDoPostProcessingAdjustmentFreezeAlg_Gen implements
+public class CmpToDoPostProcessingAdjustmentFreezeAlg_Impl extends
+		CmpToDoPostProcessingAdjustmentFreezeAlg_Gen implements
 		ToDoTypeToDoPostProcessAlgorithmSpot {
 
 	// Hard Parameter
@@ -79,7 +80,7 @@ public class CmToDoPostProcessingAdjustmentFreezeAlg_Impl extends
 		if(notNull(oldToDoDto)){
 			// Adjustment adjustment = null;
 			if(!oldToDoDto.getEntity().getDrillKeyValues().isEmpty()){
-				String drilKeyValue = oldToDoDto.getEntity().getDrillKeyValues().iterator().next().getKeyValue123();
+				String drilKeyValue = oldToDoDto.getEntity().getDrillKeyValues().iterator().next().getKeyValue();
 				// adjustment = new Adjustment_Id(drilKeyValue).getEntity();
 			}
 			// adjustment.getApprovalRequestId();
