@@ -1,33 +1,6 @@
 /*
  **************************************************************************
- *
- * This module is the confidential and proprietary information of
- * GIEAU; it is not to be copied, reproduced, or
- * transmitted in any form, by any means, in whole or in part,
- * nor is it to be used for any purpose other than that for which
- * it is expressly provided without the written permission of
- * GIEAU.
- * Testing prasad
- *
- **************************************************************************
- *
- * PROGRAM DESCRIPTION:
- *
- * Post Processing - Transfer To Do Context
- *
- * This algorithm will update the newly created To Do entry with the
- * latest completed To Do entry(s) comment and assigned user if the To Do
- * is created for the same service agreement, same To Do type,
- * same Message Number, same Message Parm1 as in input parameter.
- *
- **************************************************************************
- *
- * CHANGE HISTORY:
- *
- * Date:        by:     Reason:
- * YYYY-MM-DD   IN      Reason text.
- *
- * 2013-01-31  WTechn   TD04.01 Initial Version.
+ *   Testing Prasad
  *************************************************************************
  */
 package com.splwg.cm.domain.toDo.toDoType;
