@@ -34,8 +34,8 @@ public class CmpToDoPostProcessingAdjustmentFreezeAlg_ImplTest extends
 		Algorithm algorithm = algorithmId.getEntity();
 		Algorithm algorithm1=null;
 		//CmpToDoPostProcessingAdjustmentFreezeAlg_Impl
-		//long bigInteger = algorithm.getVersion();
-		assertNull(null,algorithm1);
+		long bigInteger = algorithm.getVersion();
+		//assertNull(null,algorithm1);
 		//fail("Not yet implemented");
 	}
 
