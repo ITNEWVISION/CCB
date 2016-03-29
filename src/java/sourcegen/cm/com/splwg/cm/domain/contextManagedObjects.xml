@@ -1,7 +1,0 @@
-<com.splwg.shared.environ.ContextManagedObjectData>
-  <domainPackages>
-    <string>com.splwg.cm.domain.toDo.toDoType</string>
-  </domainPackages>
-  <lookupFieldClasses class="tree-map"/>
-  <cobolAlgorithmInterfaceExtensions class="tree-map"/>
-</com.splwg.shared.environ.ContextManagedObjectData>
