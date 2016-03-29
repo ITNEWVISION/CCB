@@ -1,13 +1,13 @@
 package source.cm.com.splwg.cm;
 
 /**
- * Hello world!
+ * Hello Prasad!
  *
  */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println( "Hello Prasad!" );
     }
 }
