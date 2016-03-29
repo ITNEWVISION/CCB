@@ -1,6 +1,17 @@
 /*
  **************************************************************************
- *   Testing Prasad
+ *
+ * PROGRAM DESCRIPTION:
+ *
+ * TEST - Prasad 
+ **************************************************************************
+ *
+ * CHANGE HISTORY:
+ *
+ * Date:        by:     Reason:
+ * YYYY-MM-DD   IN      Reason text.
+ *
+ * 2013-01-31  WTechn   TD04.01 Initial Version.
  *************************************************************************
  */
 package com.splwg.cm.domain.toDo.toDoType;
@@ -8,16 +19,6 @@ package com.splwg.cm.domain.toDo.toDoType;
 import com.splwg.base.domain.todo.toDoEntry.ToDoEntry;
 import com.splwg.base.domain.todo.toDoEntry.ToDoEntry_DTO;
 import com.splwg.base.domain.todo.toDoType.ToDoTypeToDoPostProcessAlgorithmSpot;
-/*import com.splwg.ccb.domain.adjustment.adjustment.Adjustment;
-import com.splwg.ccb.domain.adjustment.adjustment.Adjustment_Id;
-import com.splwg.ccb.domain.admin.cisDivision.CisDivision_Id;
-import com.splwg.ccb.domain.approval.approvalRequest.ApprovalRequest;
-import com.splwg.ccb.domain.approval.approvalRequest.ApprovalRequest_Id;
-import com.splwg.ccb.domain.customerinfo.account.Account;
-import com.splwg.ccb.domain.customerinfo.account.Account_Id;
-// import com.splwg.cm.domain.customMessages.CmMessageRepository;
-import com.splwg.shared.common.ApplicationError;
-*/
 
 /**
  * @author Prasad Rao
@@ -36,7 +37,6 @@ public class CmpToDoPostProcessingAdjustmentFreezeAlg_Impl extends
 	 * This method is used to validate the of parameters.
 	 */
 	protected void extraSoftParameterValidations(boolean arg0) {
-
 	}
 
 	public void setNewToDoEntry(ToDoEntry toDoEntry) {
