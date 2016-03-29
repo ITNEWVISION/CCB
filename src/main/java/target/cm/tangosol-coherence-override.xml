@@ -1,0 +1,25 @@
+<coherence>
+    <cluster-config>
+        <member-identity>
+            <cluster-name></cluster-name>
+        </member-identity>
+        <multicast-listener>
+            <address></address>
+            <port></port>
+        </multicast-listener>
+        <service-guardian>
+            <service-failure-policy>logging</service-failure-policy>
+            <timeout-milliseconds>86400000</timeout-milliseconds>
+        </service-guardian>
+        <shutdown-listener>
+            <enabled system-property="tangosol.coherence.shutdownhook">none</enabled>
+        </shutdown-listener>
+    </cluster-config>
+    <logging-config>
+        <destination>log4j</destination>
+        <severity-level>5</severity-level>
+    </logging-config>
+    <license-config>
+        <license-mode>dev</license-mode>
+    </license-config>
+</coherence>
