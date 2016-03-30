@@ -30,13 +30,16 @@ public class CmpToDoPostProcessingAdjustmentFreezeAlg_ImplTest extends
 
 	@Test
 	public void test() {
-		Algorithm_Id algorithmId = new Algorithm_Id("123");
-		Algorithm algorithm = algorithmId.getEntity();
-		Algorithm algorithm1=null;
-		//CmpToDoPostProcessingAdjustmentFreezeAlg_Impl
-		long bigInteger = algorithm.getVersion();
-		//assertNull(null,algorithm1);
-		//fail("Not yet implemented");
+		// Check style implemented here. One simple check style used here is that 
+		// local variable names should contain a-z or 0 - 9 only. 
+		// If out of this range any character is used, it will shown as warning message.
+		
+		Algorithm_Id algorithmId = new Algorithm_Id("123"); // Here capital I is used, hence warning from "check-style"
+		Algorithm algorithm5 = algorithmId.getEntity();
+		
+		Algorithm algorithmA=null;// Here capital A is used, hence warning from "check-style"
+		// long version = algorithm5.getVersion();
+		assertNull(null, algorithm5.getVersion());
 	}
 
 }
