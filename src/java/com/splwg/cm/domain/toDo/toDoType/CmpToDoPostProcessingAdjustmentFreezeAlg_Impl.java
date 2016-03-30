@@ -5,14 +5,6 @@
  *
  * TEST - Prasad 
  **************************************************************************
- *
- * CHANGE HISTORY:
- *
- * Date:        by:     Reason:
- * YYYY-MM-DD   IN      Reason text.
- *
- * 2013-01-31  WTechn   TD04.01 Initial Version.
- *************************************************************************
  */
 package com.splwg.cm.domain.toDo.toDoType;
 
