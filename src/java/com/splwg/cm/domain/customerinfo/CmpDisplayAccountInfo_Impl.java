@@ -23,7 +23,7 @@ public class CmpDisplayAccountInfo_Impl
 	String accountName=" Test Account ";
 	Logger logger;
 	String alertInfo;
-	String alertInfoConstant="***Welcome To Prasad Build Process***";
+	String alertInfoConstant="***** Welcome To Prasad Build Process *****";
 	CustomerClass_Id customerClassId= new CustomerClass_Id("C");
 	
 	@Override
